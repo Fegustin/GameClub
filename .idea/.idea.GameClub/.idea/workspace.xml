@@ -19,25 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219045bf-b419-429f-b226-feed6576f786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Documentation.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Documentation/AutoSaver - Documentation.odt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Documentation/AutoSaver - Documentation.odt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Documentation/AutoSaver - Documentation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Documentation/AutoSaver - Documentation.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Editor/AutoSaver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Editor/AutoSaver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Editor/AutoSaverEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MHLab/AutoSaver/Editor/AutoSaverEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/texture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/texture.png.meta" afterDir="false" />
-    </list>
+    <list default="true" id="219045bf-b419-429f-b226-feed6576f786" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +56,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -106,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605970212977</updated>
       <workItem from="1605970221032" duration="21000" />
-      <workItem from="1605970294080" duration="15342000" />
+      <workItem from="1605970294080" duration="15497000" />
     </task>
     <servers />
   </component>
