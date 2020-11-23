@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7322286966775867489}
   - component: {fileID: 4854517998628335386}
   - component: {fileID: 2367837496774177621}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Computer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,8 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeRemaining: 10
-  timerIsRunning: 0
-  isEmpty: 1
 --- !u!61 &2367837496774177621
 BoxCollider2D:
   m_ObjectHideFlags: 0

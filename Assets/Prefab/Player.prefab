@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7692769505282934637}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,8 +161,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeRemaining: 2
-  timerIsRunning: 1
-  isEmpty: 1
 --- !u!95 &7692769505282934637
 Animator:
   serializedVersion: 3
@@ -173,7 +171,7 @@ Animator:
   m_GameObject: {fileID: 3166649430287345776}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 91bf66cfed5dc00429284330ea2c4613, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

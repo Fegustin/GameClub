@@ -2494,6 +2494,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 7574052817907858204, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8397489698442928731, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
       propertyPath: m_Name
       value: Computer (1)
@@ -2831,10 +2835,6 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 1374046896}
-    - target: {fileID: 7692769505282934637, guid: 1cc4cff66b29255418d1d32561644436, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 91bf66cfed5dc00429284330ea2c4613, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cc4cff66b29255418d1d32561644436, type: 3}
 --- !u!1001 &8744776123132160267
@@ -2891,10 +2891,6 @@ PrefabInstance:
     - target: {fileID: 8397489698442928731, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
       propertyPath: m_Name
       value: Computer
-      objectReference: {fileID: 0}
-    - target: {fileID: 8397489698442928731, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
@@ -2956,6 +2952,6 @@ PrefabInstance:
     - target: {fileID: 8823834777072380814, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1383696607}
+      objectReference: {fileID: 1723226310}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}

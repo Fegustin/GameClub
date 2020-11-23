@@ -1,6 +1,6 @@
-﻿using UnityEngine;
+﻿using Pathfinding;
+using UnityEngine;
 using Random = System.Random;
-using Pathfinding;
 
 namespace Characters
 {
@@ -8,18 +8,19 @@ namespace Characters
     {
         private AIPath _aiPath;
         private Animator _animator;
-        
+
         private float _rotZ;
 
         public int money;
         public int mood;
+        
         private static readonly int IsToWalk = Animator.StringToHash("isToWalk");
 
         private void Start()
         {
             _aiPath = gameObject.GetComponentInParent(typeof(AIPath)) as AIPath;
             _animator = GetComponent<Animator>();
-            
+
             var random = new Random();
             money = random.Next(5, 10);
             mood = random.Next(1, 5);
@@ -29,7 +30,7 @@ namespace Characters
         {
             var yDirection = _aiPath.desiredVelocity.y;
             var xDirection = _aiPath.desiredVelocity.x;
-            
+
             Rotation(yDirection, xDirection);
             StartAnimationToWalk(yDirection, xDirection);
         }
@@ -37,9 +38,12 @@ namespace Characters
         private void Rotation(float y, float x)
         {
             _rotZ = Mathf.Atan2(y, x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0f, 0f, _rotZ);
+            if (y != 0 || x != 0)
+            {
+                transform.rotation = Quaternion.Euler(0f, 0f, _rotZ);
+            }
         }
-        
+
         private void StartAnimationToWalk(float y, float x)
         {
             if (y == 0 || x == 0)
