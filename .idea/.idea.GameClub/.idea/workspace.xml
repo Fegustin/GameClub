@@ -22,8 +22,10 @@
     <list default="true" id="219045bf-b419-429f-b226-feed6576f786" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameClub/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameClub/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameClub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameClub/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Computer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Computer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Source/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Source/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/Source/UI/SideBarUpUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/Source/UI/SideBarUpUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Guest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Guest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" afterDir="false" />
     </list>
@@ -42,16 +44,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/жж.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Computers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/fg.asmdef" />
-        <option value="$PROJECT_DIR$/Assets/ScriptableObject/Source/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Guest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/Spawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Guest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ComputerSearch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObject/Source/UI/SideBarUpUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObject/Source/State.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Computer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Guest/NoFindComputerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Guest/Guest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Guest/SearchComputerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObject/Source/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Guest/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObject/Source/State/SearchComputerState.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObject/Source/State/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScriptableObject/Source/State/NoFindComputerState.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +112,10 @@
       <workItem from="1605970294080" duration="15497000" />
       <workItem from="1605999188157" duration="160000" />
       <workItem from="1606147094715" duration="14817000" />
+      <workItem from="1606182452311" duration="29000" />
+      <workItem from="1606182807351" duration="745000" />
+      <workItem from="1606184943745" duration="19000" />
+      <workItem from="1606185042741" duration="7011000" />
     </task>
     <servers />
   </component>
@@ -124,18 +140,24 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="634" y="44" key="RiderGenerateDialog" timestamp="1606159310674">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="761" y="53" key="RiderGenerateDialog" timestamp="1606190838264">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="634" y="44" key="RiderGenerateDialog/0.0.1600.860@0.0.1600.860" timestamp="1606159310674" />
-    <state x="301" y="75" key="SettingsEditor" timestamp="1605970337298">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="761" y="53" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606190838264" />
+    <state x="361" y="91" key="SettingsEditor" timestamp="1606185086152">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1605970337298" />
+    <state x="361" y="91" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606185086152" />
     <state x="92" y="92" width="1416" height="676" key="VCS.FileHistoryDialog" timestamp="1606147784278">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="VCS.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1606147784278" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1606187471609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606187471609" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1605973755773">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

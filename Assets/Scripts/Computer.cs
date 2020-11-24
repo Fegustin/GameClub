@@ -1,10 +1,12 @@
-﻿using Characters;
+﻿using System;
+using Characters;
+using Pathfinding;
 using UnityEngine;
 
 public class Computer : MonoBehaviour
 {
     [HideInInspector] public bool timerIsRunning = true;
-    
+
     private float _timeRemaining = 60f;
 
     public delegate void StopTimerAction(bool isStop);
@@ -26,7 +28,7 @@ public class Computer : MonoBehaviour
             if (_timeRemaining > 0)
             {
                 _timeRemaining -= Time.deltaTime;
-                
+
                 StopTimerEvent?.Invoke(timerIsRunning);
                 IsEmptyEvent?.Invoke(false);
             }
@@ -34,7 +36,7 @@ public class Computer : MonoBehaviour
             {
                 _timeRemaining = 0;
                 timerIsRunning = false;
-                
+
                 StopTimerEvent?.Invoke(timerIsRunning);
                 IsEmptyEvent?.Invoke(true);
             }
