@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="219045bf-b419-429f-b226-feed6576f786" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameClub/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameClub/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GameClub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameClub/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Computer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Computer.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Guest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Guest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Computer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +47,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Characters/Guest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ComputerSearch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Computer.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/rider64.exe.vmoptions" />
       </list>
     </option>
   </component>
@@ -99,7 +95,9 @@
       <workItem from="1605970221032" duration="21000" />
       <workItem from="1605970294080" duration="15497000" />
       <workItem from="1605999188157" duration="160000" />
-      <workItem from="1606147094715" duration="14817000" />
+      <workItem from="1606147094715" duration="15178000" />
+      <workItem from="1606583327170" duration="63000" />
+      <workItem from="1606583430406" duration="51000" />
     </task>
     <servers />
   </component>
