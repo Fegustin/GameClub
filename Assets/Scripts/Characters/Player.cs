@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 namespace Characters
 {
@@ -14,7 +15,7 @@ namespace Characters
         private float _horizontal;
         private float _vertical;
         private float _rotZ;
-        
+
         private static readonly int IsToWalk = Animator.StringToHash("isToWalk");
 
         private void Awake()
@@ -34,6 +35,8 @@ namespace Characters
         {
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _animator = GetComponent<Animator>();
+
+            StartCoroutine(UpdatePathfinding());
         }
 
         private void Update()
@@ -42,12 +45,19 @@ namespace Characters
             _vertical = joystick.Vertical;
 
             StartAnimationToWalk(_horizontal, _vertical);
-            Rotation();
+
+            if (_horizontal != 0 || _vertical != 0)
+            {
+                Rotation();
+            }
         }
 
         private void FixedUpdate()
         {
-            Move();
+            if (_horizontal != 0 || _vertical != 0)
+            {
+                Move();
+            }
         }
 
         private void Move()
@@ -63,11 +73,7 @@ namespace Characters
         private void Rotation()
         {
             _rotZ = Mathf.Atan2(-_vertical, -_horizontal) * Mathf.Rad2Deg;
-
-            if (_horizontal != 0 || _vertical != 0)
-            {
-                transform.rotation = Quaternion.Euler(0f, 0f, _rotZ);
-            }
+            transform.rotation = Quaternion.Euler(0f, 0f, _rotZ);
         }
 
         private void StartAnimationToWalk(float h, float v)
@@ -79,6 +85,19 @@ namespace Characters
             else
             {
                 _animator.SetBool(IsToWalk, true);
+            }
+        }
+
+        private IEnumerator UpdatePathfinding()
+        {
+            while (true)
+            {
+                if (_horizontal != 0 || _vertical != 0)
+                {
+                    AstarPath.active.Scan();
+                    // AstarPath.active.UpdateGraphs(gameObject.GetComponent<Collider2D>().bounds);
+                    yield return new WaitForSeconds(.3f);
+                }
             }
         }
     }

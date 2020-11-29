@@ -237,6 +237,11 @@
         <e p="ScriptableObject" t="Include">
           <e p="Source" t="Include">
             <e p="Item.cs" t="Include" />
+            <e p="State" t="Include">
+              <e p="GOToHomeState.cs" t="Include" />
+              <e p="SearchComputerState.cs" t="Include" />
+              <e p="StateGuest.cs" t="Include" />
+            </e>
             <e p="UI" t="Include">
               <e p="SideBarUpUI.cs" t="Include" />
             </e>

@@ -15,7 +15,9 @@ namespace Utils
 
         private void SpawnRandom()
         {
-            Instantiate(objects[Random.Range(0, objects.Length - 1)]);
+            var position = gameObject.transform.position;
+            Instantiate(objects[Random.Range(0, objects.Length - 1)], new Vector3(position.x, position.y, position.z),
+                Quaternion.identity);
         }
     }
 }

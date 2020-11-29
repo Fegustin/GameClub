@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8823834776720262917}
   - component: {fileID: 8823834776720262923}
   - component: {fileID: 257327354}
-  - component: {fileID: 257327352}
+  - component: {fileID: 69575261}
   m_Layer: 0
   m_Name: GuestGFX
   m_TagString: Untagged
@@ -130,7 +130,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &257327352
+--- !u!114 &69575261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,6 +144,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   money: 0
   mood: 0
+  searchComputerState: {fileID: 11400000, guid: 1d4628d95a316bc49a5b9edd4f646c08, type: 2}
+  goToHomeState: {fileID: 11400000, guid: 281f77b64aab8654d9119d4fe527889d, type: 2}
+  currentState: {fileID: 11400000, guid: 1d4628d95a316bc49a5b9edd4f646c08, type: 2}
 --- !u!1 &8823834777072380813
 GameObject:
   m_ObjectHideFlags: 0

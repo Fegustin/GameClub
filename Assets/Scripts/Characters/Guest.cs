@@ -1,4 +1,5 @@
 ﻿using Pathfinding;
+using ScriptableObject.Source.State;
 using UnityEngine;
 using Random = System.Random;
 
@@ -6,19 +7,26 @@ namespace Characters
 {
     public class Guest : MonoBehaviour
     {
+        public int money;
+        public int mood;
+        
+        public State searchComputerState;
+        public State goToHomeState;
+        [Header("Actual state")] public State currentState;
+        
         private AIPath _aiPath;
+        private AIDestinationSetter _aiDestinationSetter;
         private Animator _animator;
 
         private float _rotZ;
 
-        public int money;
-        public int mood;
-        
         private static readonly int IsToWalk = Animator.StringToHash("isToWalk");
 
         private void Start()
         {
-            _aiPath = gameObject.GetComponentInParent(typeof(AIPath)) as AIPath;
+            SetState(searchComputerState);
+            _aiPath = gameObject.GetComponentInParent<AIPath>();
+            _aiDestinationSetter = gameObject.GetComponentInParent<AIDestinationSetter>();
             _animator = GetComponent<Animator>();
 
             var random = new Random();
@@ -33,6 +41,28 @@ namespace Characters
 
             Rotation(yDirection, xDirection);
             StartAnimationToWalk(yDirection, xDirection);
+
+            // State Guest
+            if (!currentState.isFinished)
+            {
+                currentState.Run();
+            }
+            else
+            {
+                SetState(goToHomeState);
+            }
+        }
+
+        public void SetState(State state)
+        {
+            currentState = Instantiate(state);
+            currentState.guest = this;
+            currentState.Init();
+        }
+
+        public void MoveTo(Transform target)
+        {
+            _aiDestinationSetter.target = target;
         }
 
         private void Rotation(float y, float x)
