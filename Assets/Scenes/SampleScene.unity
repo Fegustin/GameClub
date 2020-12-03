@@ -244,59 +244,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106130190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
+  m_LocalPosition: {x: 0.44, y: -2.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &131611447
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 131611449}
-  - component: {fileID: 131611448}
-  m_Layer: 0
-  m_Name: Spawer Guest (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &131611448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131611447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &131611449
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131611447}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &143236259
 GameObject:
@@ -322,7 +274,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143236259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.23, y: 1.486, z: -0.5227302}
+  m_LocalPosition: {x: 4.61, y: 1.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2116964767}
@@ -399,7 +351,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157275677}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.52, y: -0.4459999, z: -10}
+  m_LocalPosition: {x: -2.5200002, y: -0.4459999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1117681899}
@@ -411,107 +363,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5672649972704380013, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
   m_PrefabInstance: {fileID: 1668618061}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &195352604
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 195352606}
-  - component: {fileID: 195352605}
-  m_Layer: 0
-  m_Name: Spawer Guest (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &195352605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195352604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &195352606
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 195352604}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &200244312 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5672649972704380013, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
   m_PrefabInstance: {fileID: 970633778}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &236184328
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 236184330}
-  - component: {fileID: 236184329}
-  m_Layer: 0
-  m_Name: Spawer Guest (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &236184329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236184328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &236184330
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236184328}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &262678767
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,102 +421,6 @@ MonoBehaviour:
   item: {fileID: 11400000, guid: 0f2876461d1555448a5a079e9311fc02, type: 2}
   icon: {fileID: 804114073}
   count: {fileID: 1515075699}
---- !u!1 &358704187
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 358704189}
-  - component: {fileID: 358704188}
-  m_Layer: 0
-  m_Name: Spawer Guest (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &358704188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358704187}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &358704189
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358704187}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &381432130
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 381432132}
-  - component: {fileID: 381432131}
-  m_Layer: 0
-  m_Name: Spawer Guest (15)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &381432131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381432130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &381432132
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381432130}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &423569664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -668,6 +428,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 143236260}
     m_Modifications:
+    - target: {fileID: 2192369395868359967, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192369395868359967, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5672649972704380013, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.26
@@ -726,54 +494,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
---- !u!1 &478463327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 478463329}
-  - component: {fileID: 478463328}
-  m_Layer: 0
-  m_Name: Spawer Guest (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &478463328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478463327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &478463329
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 478463327}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,13 +606,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.52, y: -0.4459999, z: -10}
+  m_LocalPosition: {x: -2.5200002, y: -0.4459999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &561378163
+--- !u!1 &687315598
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -900,94 +620,55 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 561378165}
-  - component: {fileID: 561378164}
+  - component: {fileID: 687315599}
+  - component: {fileID: 687315600}
   m_Layer: 0
-  m_Name: Spawer Guest (4)
+  m_Name: TriggerAdminDesk
   m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &561378164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561378163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &561378165
+--- !u!4 &687315599
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 561378163}
+  m_GameObject: {fileID: 687315598}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
+  m_LocalPosition: {x: 0.1253, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 955734123}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &627676269
-GameObject:
+--- !u!61 &687315600
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 627676271}
-  - component: {fileID: 627676270}
-  m_Layer: 0
-  m_Name: Spawer Guest (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &627676270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627676269}
+  m_GameObject: {fileID: 687315598}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &627676271
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627676269}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.011157133, y: -0.0022470802}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.08962253, y: 0.16700876}
+  m_EdgeRadius: 0
 --- !u!1 &695032412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,54 +734,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &711892946
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 711892948}
-  - component: {fileID: 711892947}
-  m_Layer: 0
-  m_Name: Spawer Guest (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &711892947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711892946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &711892948
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711892946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &778037051
 PrefabInstance:
@@ -1299,6 +932,7 @@ GameObject:
   - component: {fileID: 804114072}
   - component: {fileID: 804114074}
   - component: {fileID: 804114073}
+  - component: {fileID: 804114075}
   m_Layer: 5
   m_Name: Icon
   m_TagString: Untagged
@@ -1363,11 +997,140 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804114071}
   m_CullTransparentMesh: 0
+--- !u!95 &804114075
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804114071}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ecc5a5e4112850418bd5058da346db9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &837426404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5672649972704380013, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
   m_PrefabInstance: {fileID: 423569664}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &955734120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955734123}
+  - component: {fileID: 955734122}
+  - component: {fileID: 955734121}
+  m_Layer: 8
+  m_Name: AdminDesk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &955734121
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955734120}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.00061637163, y: -0.000000033527613}
+  m_SpriteTilingProperty:
+    border: {x: 0.049999997, y: 0.049999997, z: 0.049999997, w: 0.049999997}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.16, y: 0.16}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.13842806, y: 0.13781163}
+  m_EdgeRadius: 0
+--- !u!212 &955734122
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955734120}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.16, y: 0.16}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &955734123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955734120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.34, y: -2.69, z: 0}
+  m_LocalScale: {x: 8.542311, y: 8.542311, z: 8.542311}
+  m_Children:
+  - {fileID: 687315599}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &970633778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1651,7 +1414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAAAYIeyjV0OoZQIAAAcFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVEtz2jAQ/iuMzoWxITzSWwuE9JDHhHZy8UVYK6xBljySHCAZ/nu1ssCue2LZ79vdbx/yFxHKVpA7bTZGsCfNgHwfELTJt0ELPsKJ7rXaik+4ct4FcwWSaOC8USe096cYZnUJzoj8h9pLJCfeWSvBtSnXbA9LbZ31bk6lBQ8Z7TBaedfXgJz8z/AeQ87eGs/R+vTWfTK4eDMH5cB0qOPRNHKHSTCR3HBrlUtaVsBQeBuSTmLAPLCU7ygSktEYS2gphY2CiDtXoeFtVYAB7JgJ6vsLIiajFEsWIPaFQ7nd8BfOLbjYv6HnlTB+Uk1e8lM34yupPTTSPqissdJ8tgi6mqRP/+HDNMDc6PLxWjdNsIYrRH54o+ecWteZb9e9arWnYUJHKg90J+G9APWsN0bXinnQmRpDawvjVfv31tqygPzQ+hupPWddtSO/rXM0Wdyli9l6mMzjqrCdSxjEaSlFuQtruGscW6nD8MM5gPGL+uW1h2OxMav3oqA/Fn7TffeqIvAgjHUeig0rVLrTtUEqWYfxYWO1W2qjILij/goUle786tO4/jZ7WKdsD3mg+H5i8Yhdn0UvJLhbfpL0oFd9vO3NFvr4BLZ4qZ0UqpsMkWc/qKVWqrk220MxblsbTnNom93Xgv17ZmQ65Xx3N0tnCacpg2S44BOY8d1kluZjztIpCXcolG+UytdGaZyPX5tqkyt/c9fvymBjaBUunxl63IjPUndmLhTX29wAqJcmw004GF/Ev1K2ZsJPaAvOCRUWTr4yInV+AJbdEmWh0/XJGZq1WTJSiQ/t0JORZfiQZORCLn8BUEsDBBQAAAgIAAAYIey+nEcjbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrSSqWlaWpKJmaGZQVqiYUqqga5FmnGqWVqSsZlhslFaiqGpUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAAAYIeyjV0OoZQIAAAcFAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAAAYIey+nEcjbQAAAHgAAAAJACQAAAAAAAAAAAAAALICAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAagMAAAAA
+    dataString: UEsDBBQAAAgIAAAYIewc7OwjZwIAAAsFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1z2jAQ/SuMzoWx+QrprSWE9JCPCe3k4ouwVliDLHkkOUAY/ntXssCuywV5377V27drn4lQtoLcabM2gj1rBuT7gPgz+TZowSc40p1WG/EF15wPwVzhk2jIeadOaIynnmZ1Cc6I/IfaSZ+cYLBWgmtTrtgOlto6i2FOpQWEjHaerTB0HpAj/g3vPeWEp/GdP33h6T4ZXPCYg3JgOqnj0fTe/2bjSBkmo1nkNJRa5ZKWFTCvv2Wmk0i4C1kKG4sJycjXyrWUwkZdxJ2q0PemKsCAb5wJim0GLT69ALErXHy4cV85t+CiB4aeHoRBt5qi5KduLCyp3Te6Pqms/TXj2TyIaoo+/4cP0wBzo8un671p4u9whcj37/SUU+s6HnfDD63wNNhzoHJPtxI+ClAvem10rRiCztSeWlsYP7SPt9aWBeT7Nt5I7QXrqvX7NtLRZDFNF/PVMLmLc/LtXIIRx6UU5TbMYNoENlIH58NKgMEp/ULtYWFsrIpRL+iPhd90192sCDwKYx1CsWHllW51bXwqWQX7fGO1W2qjIISj/goUle70hmVcf5o9rHNtD3mk/h2Kl0fs+mr0KCHc5idJD3rTh9vcbKEPz2CL19pJobrFPPKCRi21Us222R7qeZvacJpD2+yuFuzfNSOzGefb6TydJ5ymDJLhgk9gzreTeZqPOUtnJOyhUNgolW+N0ugPjk21xRXu3PXbMlgbWoXNZ4Ye1uKr1B3PheJ6kxsA9dpUuAkHg5fgK8pWTKBDG3BOqDBwcs6I1PkeWHYrlIVOV0dnaNZWyUglPrXzkYwsw8ckIxdy+QtQSwMEFAAACAgAABgh7L6cRyNtAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTVUVBKL0osyCgGihiCOKWZKSB2tJKpaVpakomZoZlBWqJhSqqBrkWacapZWpKxmWGyUVqKoalSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAABgh7Bzs7CNnAgAACwUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAABgh7L6cRyNtAAAAeAAAAAkAJAAAAAAAAAAAAAAAtAIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAABsAwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -2891,102 +2654,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515075697}
   m_CullTransparentMesh: 0
---- !u!1 &1543006205
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1543006207}
-  - component: {fileID: 1543006206}
-  m_Layer: 0
-  m_Name: Spawer Guest (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1543006206
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543006205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &1543006207
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543006205}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1624525207
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1624525209}
-  - component: {fileID: 1624525208}
-  m_Layer: 0
-  m_Name: Spawer Guest (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1624525208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624525207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &1624525209
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624525207}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1668618061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3221,150 +2888,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1848957263
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1848957265}
-  - component: {fileID: 1848957264}
-  m_Layer: 0
-  m_Name: Spawer Guest (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1848957264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848957263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &1848957265
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848957263}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1861794787
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1861794789}
-  - component: {fileID: 1861794788}
-  m_Layer: 0
-  m_Name: Spawer Guest (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1861794788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861794787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &1861794789
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861794787}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1899633440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1899633442}
-  - component: {fileID: 1899633441}
-  m_Layer: 0
-  m_Name: Spawer Guest (12)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1899633441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899633440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &1899633442
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899633440}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1943128731
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3510,54 +3033,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5672649972704380013, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
   m_PrefabInstance: {fileID: 8744776123132160267}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2121061128
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2121061130}
-  - component: {fileID: 2121061129}
-  m_Layer: 0
-  m_Name: Spawer Guest (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2121061129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121061128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98dafa22c6ba47d495f2fdf20f7685ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objects:
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
-  - {fileID: 8823834777072380813, guid: 58210815b3a683949a0e1c8deef7a345, type: 3}
---- !u!4 &2121061130
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121061128}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -2.72, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &3166649431118438571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3568,10 +3043,6 @@ PrefabInstance:
     - target: {fileID: 3166649430287345776, guid: 1cc4cff66b29255418d1d32561644436, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3166649430287345776, guid: 1cc4cff66b29255418d1d32561644436, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3166649430287345780, guid: 1cc4cff66b29255418d1d32561644436, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3621,6 +3092,10 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 1374046896}
+    - target: {fileID: 3166649430287345783, guid: 1cc4cff66b29255418d1d32561644436, type: 3}
+      propertyPath: speed
+      value: 2.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cc4cff66b29255418d1d32561644436, type: 3}
 --- !u!1001 &8744776123132160267
@@ -3679,8 +3154,8 @@ PrefabInstance:
       value: Computer
       objectReference: {fileID: 0}
     - target: {fileID: 8397489698442928731, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 4
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 589bd06e1c836f44585684ed61a4906a, type: 3}

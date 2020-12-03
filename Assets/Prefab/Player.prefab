@@ -13,9 +13,8 @@ GameObject:
   - component: {fileID: 3166649430287345739}
   - component: {fileID: 3166649430287345782}
   - component: {fileID: 3166649430287345783}
-  - component: {fileID: 3166649430287345738}
   - component: {fileID: 7692769505282934637}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -148,19 +147,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joystick: {fileID: 0}
   speed: 3
---- !u!114 &3166649430287345738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3166649430287345776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15fd37b048b8441cae0ba6cbe590a2a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeRemaining: 2
 --- !u!95 &7692769505282934637
 Animator:
   serializedVersion: 3

@@ -11,6 +11,8 @@ namespace Utils
         private void Start()
         {
             SpawnRandom();
+            SpawnRandom();
+            SpawnRandom();
         }
 
         private void SpawnRandom()

@@ -234,25 +234,30 @@
             </e>
           </e>
         </e>
-        <e p="ScriptableObject" t="Include">
-          <e p="Source" t="Include">
-            <e p="Item.cs" t="Include" />
-            <e p="State" t="Include">
-              <e p="GOToHomeState.cs" t="Include" />
-              <e p="SearchComputerState.cs" t="Include" />
-              <e p="StateGuest.cs" t="Include" />
-            </e>
-            <e p="UI" t="Include">
-              <e p="SideBarUpUI.cs" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="Scripts" t="Include">
-          <e p="Characters" t="Include">
-            <e p="Guest.cs" t="Include" />
-            <e p="Player.cs" t="Include" />
+          <e p="Main" t="Include">
+            <e p="Characters" t="Include">
+              <e p="Guest.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="TheCharacterAbstract.cs" t="Include" />
+            </e>
+            <e p="Computer.cs" t="Include" />
           </e>
-          <e p="Computer.cs" t="Include" />
+          <e p="ScriptableObject" t="Include">
+            <e p="Source" t="Include">
+              <e p="Item.cs" t="Include" />
+              <e p="State" t="Include">
+                <e p="GoToAdminDeskState.cs" t="Include" />
+                <e p="GOToHomeState.cs" t="Include" />
+                <e p="PlayingAtTheComputerState.cs" t="Include" />
+                <e p="SearchComputerState.cs" t="Include" />
+                <e p="State.cs" t="Include" />
+              </e>
+              <e p="UI" t="Include">
+                <e p="SideBarUpUI.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Utils" t="Include">
             <e p="Spawner.cs" t="Include" />
           </e>
